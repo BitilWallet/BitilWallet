@@ -416,7 +416,7 @@
     "list_long_clipboard": "クリップボードからコピー",
     "list_long_scan": "QRコードをスキャン",
     "list_marketplace": "Marketplace",
-    "list_tap_here_to_buy": "Bitcoin を購入するにはここをタップ",
+    "list_tap_here_to_buy": "Bitcoin Israel を購入するにはここをタップ",
     "list_title": "ウォレット",
     "list_tryagain": "再度試す",
     "looks_like_bip38": "パスワード保護された秘密鍵(BIP38)のようです。",
@@ -483,7 +483,7 @@
     "use_coins": "コインを利用"
   },
   "units": {
-    "BTC": "BTC",
+    "BTC": "BTCIL",
     "sat_byte": "sat/byte",
     "sats": "sats"
   },

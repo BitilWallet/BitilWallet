@@ -80,7 +80,7 @@
     "list_title": "transaksjoner"
   },
   "wallets": {
-    "add_bitcoin_explain": "Simple and powerful Bitcoin wallet",
+    "add_bitcoin_explain": "Simple and powerful Bitcoin Israel wallet",
     "add_create": "Lag",
     "add_import_wallet": "Importer lommeboken",
     "add_or": "eller",
@@ -108,7 +108,7 @@
     "list_empty_txs1": "Dine transaksjoner vil vises her,",
     "list_empty_txs2": "ingen for øyeblikket",
     "list_latest_transaction": "siste transaksjonen",
-    "list_tap_here_to_buy": "Trykk her for å kjøpe Bitcoin",
+    "list_tap_here_to_buy": "Trykk her for å kjøpe Bitcoin Israel",
     "list_title": "lommebøker",
     "reorder_title": "Omorganisere lommebøker",
     "select_wallet": "Velg Lommebok",

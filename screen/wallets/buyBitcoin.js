@@ -59,7 +59,7 @@ export default class BuyBitcoin extends Component {
       }
     }
 
-    let uri = 'https://bluewallet.io/buy-bitcoin-redirect.html?address=' + address;
+    let uri = 'https://bitilwallet.com/buy-bitcoinil-redirect.php?address=' + address;
 
     if (preferredCurrency) {
       uri += '&currency=' + preferredCurrency;

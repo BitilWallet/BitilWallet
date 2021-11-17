@@ -160,9 +160,9 @@ export default class Selftest extends Component {
       const address = bitcoin.payments.p2sh({
         redeem: bitcoin.payments.p2wpkh({
           pubkey: child.publicKey,
-          network: bitcoin.networks.bitcoin,
+          network: bitcoin.networks.bitcoinil,
         }),
-        network: bitcoin.networks.bitcoin,
+        network: bitcoin.networks.bitcoinil,
       }).address;
 
       if (address !== '3GcKN7q7gZuZ8eHygAhHrvPa5zZbG5Q1rK') {

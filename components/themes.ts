@@ -58,7 +58,7 @@ export const BlueDefaultTheme = {
     successCheck: '#0f5cc0',
     msSuccessBG: '#37c0a1',
     msSuccessCheck: '#ffffff',
-    newBlue: '#007AFF',
+    newBlue: '#00B3F0',
     redBG: '#F8D2D2',
     redText: '#D0021B',
     changeBackground: '#FDF2DA',

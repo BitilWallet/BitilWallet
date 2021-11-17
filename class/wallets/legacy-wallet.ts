@@ -522,7 +522,7 @@ export class LegacyWallet extends AbstractWallet {
       return (
         bitcoin.payments.p2pkh({
           output: scriptPubKey2,
-          network: bitcoin.networks.bitcoin,
+          network: bitcoin.networks.bitcoinil,
         }).address ?? false
       );
     } catch (_) {

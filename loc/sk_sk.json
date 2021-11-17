@@ -39,8 +39,8 @@
     "filter_currency": "Mena",
     "filter_detail": "Detail",
     "filter_filters": "Filtre",
-    "filter_iambuying": "Chcem kúpiť bitcoin",
-    "filter_iamselling": "Chcem predať bitcoin",
+    "filter_iambuying": "Chcem kúpiť Bitcoin Israel",
+    "filter_iamselling": "Chcem predať Bitcoin Israel",
     "filter_method": "Platobná metóda",
     "filter_search": "Hľadať",
     "item_minmax": "Min/Max",
@@ -222,7 +222,7 @@
     "transactions_count": "počet transakcií"
   },
   "wallets": {
-    "add_bitcoin": "Bitcoin",
+    "add_bitcoin": "Bitcoin Israel",
     "add_create": "Vytvoriť",
     "add_entropy_generated": "{gen} bytov vygenerovanej entropie",
     "add_entropy_provide": "Vytvoriť entropiu pomocou hodov kockou",

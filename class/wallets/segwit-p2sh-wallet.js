@@ -8,7 +8,7 @@ const bitcoin = require('bitcoinjs-lib');
  * @returns {String}
  */
 function pubkeyToP2shSegwitAddress(pubkey, network) {
-  network = network || bitcoin.networks.bitcoin;
+  network = network || bitcoin.networks.bitcoinil;
   const { address } = bitcoin.payments.p2sh({
     redeem: bitcoin.payments.p2wpkh({ pubkey, network }),
     network,
@@ -41,7 +41,7 @@ export class SegwitP2SHWallet extends LegacyWallet {
       const scriptPubKey2 = Buffer.from(scriptPubKey, 'hex');
       return bitcoin.payments.p2sh({
         output: scriptPubKey2,
-        network: bitcoin.networks.bitcoin,
+        network: bitcoin.networks.bitcoinil,
       }).address;
     } catch (_) {
       return false;

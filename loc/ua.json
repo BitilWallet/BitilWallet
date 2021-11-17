@@ -71,7 +71,7 @@
     "list_title": "Мої транзакції"
   },
   "wallets": {
-    "add_bitcoin_explain": "Simple and powerful Bitcoin wallet",
+    "add_bitcoin_explain": "Simple and powerful Bitcoin Israel wallet",
     "add_create": "Створити",
     "add_import_wallet": "імпортувати гаманець",
     "add_or": "чи",
@@ -98,7 +98,7 @@
     "list_empty_txs1": "Транзакціі з'являться тут,",
     "list_empty_txs2": "поки що жодноі",
     "list_latest_transaction": "остання транзакція",
-    "list_tap_here_to_buy": "Tap here to buy Bitcoin",
+    "list_tap_here_to_buy": "Tap here to buy Bitcoin Israel",
     "list_title": "гаманці",
     "xpub_copiedToClipboard": "Зкопіювано"
   }
