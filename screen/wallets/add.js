@@ -285,6 +285,7 @@ const WalletsAdd = () => {
             onPress={handleOnBitcoinButtonPressed}
             style={styles.button}
           />
+          {/* // Right now wallet don't support lightning
           <LightningButton
             active={selectedWalletType === ButtonSelected.OFFCHAIN}
             onPress={handleOnLightningButtonPressed}
@@ -299,6 +300,7 @@ const WalletsAdd = () => {
               text="LDK"
             />
           ) : null}
+          */}
           <VaultButton active={selectedWalletType === ButtonSelected.VAULT} onPress={handleOnVaultButtonPressed} style={styles.button} />
         </View>
 
