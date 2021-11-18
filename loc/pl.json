@@ -625,7 +625,7 @@
     "tip": "Ta funkcja pozwala zobaczyć, nadać etykietę, zamrozić lub wybrać monety by usprawnić zarządzanie portelem. Możesz wybrać kilka monet wybierając kolorowe kółka."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "Max",
     "sat_vbyte": "sat/vBajt",
     "sats": "satoshi"

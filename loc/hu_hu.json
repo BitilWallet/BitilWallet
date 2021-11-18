@@ -607,7 +607,7 @@
     "tip": "Ez a funkció lehetővé teszi az érmék megtekintését, címkézését, befagyasztását vagy kiválasztását a pénztárca jobb kezelése érdekében. Több érmét is kiválaszthat a színes körök megérintésével."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "Maximum",
     "sat_byte": "sat/byte",
     "sats": "sats"

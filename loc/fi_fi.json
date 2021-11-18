@@ -541,7 +541,7 @@
     "tip": "Antaa sinun nähdä, merkitä, jäädyttää tai valita kolikoita parempaan lompakon hallintaan. Voit valita useita kolikoita napauttamalla värillisiä ympyröitä. "
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "MAX",
     "sat_byte": "sat/bitti",
     "sats": "sattia"

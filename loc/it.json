@@ -525,7 +525,7 @@
     "freezeLabel_un": "Scongela"
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "Max",
     "sat_vbyte": "sat/vByte",
     "sats": "sat"

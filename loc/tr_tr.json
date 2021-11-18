@@ -238,7 +238,7 @@
     "check_address": "Adresi kontrol et"
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "Maks",
     "sat_byte": "sat/byte",
     "sats": "sat"

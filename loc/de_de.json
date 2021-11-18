@@ -629,7 +629,7 @@
     "tip": "Wallet-Verwaltung zum Anzeigen, Beschriften, Einfrieren oder Auswählen von Münzen."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "MAX",
     "sat_vbyte": "sat/vByte",
     "sats": "sats"

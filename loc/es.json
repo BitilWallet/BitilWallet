@@ -625,7 +625,7 @@
     "tip": "Te permite ver, etiquetar, congelar o seleccionar monedas para mejorar la organización de las carteras."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "Máx",
     "sat_vbyte": "sat/vByte",
     "sats": "sats"

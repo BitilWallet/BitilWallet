@@ -577,7 +577,7 @@
     "tip": "Omogoča ogled, označevanje, zamrznitev ali izbiro kovancev za boljše upravljanje denarnice."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "MAX",
     "sats": "sats"
   },

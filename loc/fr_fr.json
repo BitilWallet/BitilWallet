@@ -625,7 +625,7 @@
     "tip": "Permet de voir, étiqueter, bloquer ou sélectionner des UTXOs pour une meilleure gestion du portefeuille. Vous pouvez sélectionner plusieurs UTXOs en appuyant sur les cercles colorés."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "MAX",
     "sat_vbyte": "sat/vByte",
     "sats": "sats"

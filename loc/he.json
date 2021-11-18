@@ -619,8 +619,10 @@
     "tip": "מאפשר לך לראות, לתייג, להקפיא או לבחור מטבעות למען ניהול טוב יותר של הארנק."
   },
   "units": {
-    "BTC": "BTCIL",
-    "MAX": "מקס'"
+    "BTCIL": "BTCIL",
+    "MAX": "מקס",
+    "sat_vbyte": "sat/vByte",
+    "sats": "sats"
   },
   "addresses": {
     "sign_title": "חתימת/אימות הודעה",

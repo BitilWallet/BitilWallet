@@ -598,7 +598,7 @@
     "tip": "Hiermee kunt u coins zien, labelen, bevriezen of selecteren voor verbeterd walletbeheer."
   },
   "units": {
-    "BTC": "BTCIL",
+    "BTCIL": "BTCIL",
     "MAX": "MAX",
     "sats": "sats"
   },
