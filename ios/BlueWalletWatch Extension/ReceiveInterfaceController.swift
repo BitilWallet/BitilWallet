@@ -81,7 +81,7 @@ class ReceiveInterfaceController: WKInterfaceController {
       } else {
         guard let notificationObject = notification.object as? SpecifyInterfaceController.SpecificQRCodeContent, let walletContext = self?.wallet, !walletContext.receiveAddress.isEmpty, let receiveAddress = self?.wallet?.receiveAddress else { return }
         
-        var address = "bitcoin:\(receiveAddress)"
+        var address = "bitcoinil:\(receiveAddress)"
         
         var hasAmount = false
         if let amount = notificationObject.amount {

@@ -381,7 +381,7 @@ const ReceiveDetails = () => {
   }, []);
 
   const setAddressBIP21Encoded = address => {
-    const bip21encoded = DeeplinkSchemaMatch.bip21encode(address);
+    const bip21encoded = DeeplinkSchemaMatch.bip21encode(address, {}, 'bitcoinil');
     setParams({ address });
     setBip21encoded(bip21encoded);
     setShowAddress(true);
@@ -447,7 +447,7 @@ const ReceiveDetails = () => {
         }
         break;
     }
-    setBip21encoded(DeeplinkSchemaMatch.bip21encode(address, { amount, label: customLabel }));
+    setBip21encoded(DeeplinkSchemaMatch.bip21encode(address, { amount, label: customLabel }, 'bitcoinil'));
     setShowAddress(true);
   };
 
@@ -495,11 +495,11 @@ const ReceiveDetails = () => {
   const getDisplayAmount = () => {
     switch (customUnit) {
       case BitcoinUnit.BTC:
-        return customAmount + ' BTC';
+        return customAmount + ' BTCIL';
       case BitcoinUnit.SATS:
-        return currency.satoshiToBTC(customAmount) + ' BTC';
+        return currency.satoshiToBTC(customAmount) + ' BTCIL';
       case BitcoinUnit.LOCAL_CURRENCY:
-        return currency.fiatToBTC(customAmount) + ' BTC';
+        return currency.fiatToBTC(customAmount) + ' BTCIL';
     }
     return customAmount + ' ' + customUnit;
   };

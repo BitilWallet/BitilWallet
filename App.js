@@ -43,7 +43,7 @@ const eventEmitter = new NativeEventEmitter(NativeModules.EventEmitter);
 const { EventEmitter } = NativeModules;
 
 const ClipboardContentType = Object.freeze({
-  BITCOIN: 'BITCOIN',
+  BITCOIN: 'BITCOINIL',
   LIGHTNING: 'LIGHTNING',
 });
 
