@@ -227,7 +227,7 @@ export class WatchOnlyWallet extends LegacyWallet {
       throw new Error('Not initialized');
     }
 
-    if (address && address.startsWith('BC1')) address = address.toLowerCase();
+    if (address && address.startsWith('IL1')) address = address.toLowerCase();
 
     return this.getAddress() === address;
   }

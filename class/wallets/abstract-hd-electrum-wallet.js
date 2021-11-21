@@ -857,9 +857,9 @@ export class AbstractHDElectrumWallet extends AbstractHDWallet {
     for (const u of utxos) {
       // this is a hacky way to distinguish native/wrapped segwit, but its good enough for our case since we have only
       // those 2 wallet types
-      if (this._getExternalAddressByIndex(0).startsWith('bc1')) {
+      if (this._getExternalAddressByIndex(0).startsWith('il1')) {
         u.script = { length: 27 };
-      } else if (this._getExternalAddressByIndex(0).startsWith('3')) {
+      } else if (this._getExternalAddressByIndex(0).startsWith('v')) {
         u.script = { length: 50 };
       }
     }

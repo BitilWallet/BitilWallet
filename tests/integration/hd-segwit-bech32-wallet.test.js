@@ -223,7 +223,7 @@ describe('Bech32 Segwit HD (BIP84)', () => {
     delete u2.height;
     assert.deepStrictEqual(u1, u2);
     const changeAddress = await hd.getChangeAddressAsync();
-    assert.ok(changeAddress && changeAddress.startsWith('bc1'));
+    assert.ok(changeAddress && changeAddress.startsWith('il1'));
 
     const { tx, inputs, outputs, fee } = hd.createTransaction(
       hd.getUtxo(),
