@@ -91,7 +91,7 @@ const About = () => {
   };
 
   const handleOnTwitterPress = () => {
-    Linking.openURL('https://twitter.com/bluewalletio');
+    Linking.openURL('https://twitter.com/bitilwallet');
   };
 
   const handleOnDiscordPress = () => {
@@ -99,19 +99,19 @@ const About = () => {
   };
 
   const handleOnTelegramPress = () => {
-    Linking.openURL('https://t.me/bluewallethat');
+    Linking.openURL('https://t.me/BitilWallet');
   };
   const handleOnGithubPress = () => {
-    Linking.openURL('https://github.com/BlueWallet/BlueWallet');
+    Linking.openURL('https://github.com/BitilWallet/BitilWallet');
   };
   const handleOnRatePress = () => {
     const options = {
       AppleAppID: '1376878040',
-      GooglePackageName: 'io.bluewallet.bluewallet',
+      GooglePackageName: 'com.bitilwallet.bitilwallet',
       preferredAndroidMarket: AndroidMarket.Google,
       preferInApp: Platform.OS !== 'android',
       openAppStoreIfInAppFails: true,
-      fallbackPlatformURL: 'https://bluewallet.io',
+      fallbackPlatformURL: 'https://bitilwallet.com',
     };
     Rate.rate(options, success => {
       if (success) {
@@ -150,7 +150,7 @@ const About = () => {
         onPress={handleOnTelegramPress}
         title={loc.settings.about_sm_telegram}
       />
-      <BlueListItem
+      {/*<BlueListItem
         leftIcon={{
           name: 'discord',
           type: 'font-awesome-5',
@@ -158,7 +158,7 @@ const About = () => {
         }}
         onPress={handleOnDiscordPress}
         title={loc.settings.about_sm_discord}
-      />
+      />*/}
       <BlueCard>
         <View style={styles.buildWith}>
           <BlueSpacing20 />
@@ -166,7 +166,7 @@ const About = () => {
           <BlueTextCentered>{loc.settings.about_awesome} 👍</BlueTextCentered>
           <BlueSpacing20 />
           <BlueTextCentered>React Native</BlueTextCentered>
-          <BlueTextCentered>bitcoinjs-lib</BlueTextCentered>
+          <BlueTextCentered>bitcoiniljs-lib</BlueTextCentered>
           <BlueTextCentered>Nodejs</BlueTextCentered>
           <BlueTextCentered>Electrum server</BlueTextCentered>
           <BlueSpacing20 />
