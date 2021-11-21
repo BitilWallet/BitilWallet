@@ -58,13 +58,13 @@ export default class Selftest extends Component {
       if (typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
         await BlueElectrum.ping();
         await BlueElectrum.waitTillConnected();
-        const addr4elect = '3GCvDBAktgQQtsbN6x5DYiQCMmgZ9Yk8BK';
+        const addr4elect = 'il1q6xj6fg9nhgfnmaks9ajfy60ezyy6l5w3h70esn';
         const electrumBalance = await BlueElectrum.getBalanceByAddress(addr4elect);
-        if (electrumBalance.confirmed !== 51432)
+        if (electrumBalance.confirmed !== 63996480)
           throw new Error('BlueElectrum getBalanceByAddress failure, got ' + JSON.stringify(electrumBalance));
 
         const electrumTxs = await BlueElectrum.getTransactionsByAddress(addr4elect);
-        if (electrumTxs.length !== 1) throw new Error('BlueElectrum getTransactionsByAddress failure, got ' + JSON.stringify(electrumTxs));
+        if (electrumTxs.length !== 12) throw new Error('BlueElectrum getTransactionsByAddress failure, got ' + JSON.stringify(electrumTxs));
       } else {
         // skipping RN-specific test'
       }
@@ -75,7 +75,7 @@ export default class Selftest extends Component {
           'abstract rhythm weird food attract treat mosquito sight royal actor surround ride strike remove guilt catch filter summer mushroom protect poverty cruel chaos pattern',
         );
         assertStrictEqual(await aezeed.validateMnemonicAsync(), true, 'Aezeed failed');
-        assertStrictEqual(aezeed._getExternalAddressByIndex(0), 'bc1qdjj7lhj9lnjye7xq3dzv3r4z0cta294xy78txn', 'Aezeed failed');
+        assertStrictEqual(aezeed._getExternalAddressByIndex(0), 'il1qdjj7lhj9lnjye7xq3dzv3r4z0cta294xwngtj3', 'Aezeed failed');
       } else {
         // skipping RN-specific test
       }
@@ -107,16 +107,16 @@ export default class Selftest extends Component {
       //
 
       l = new SegwitP2SHWallet();
-      l.setSecret('Kxr9tQED9H44gCmp6HAdmemAzU3n84H3dGkuWTKvE23JgHMW8gct');
-      if (l.getAddress() !== '34AgLJhwXrvmkZS1o5TrcdeevMt22Nar53') {
+      l.setSecret('L1AnyqFtkCRT2xhkoH9uMNjz6Pa83oyAFpMNALnfEnC8ZKFxNN18');
+      if (l.getAddress() !== 'vTNyU1Dtf4DngohEPxKN1m1Ap3zp5GWMBR') {
         throw new Error('failed to generate segwit P2SH address from WIF');
       }
 
       //
 
       const wallet = new SegwitP2SHWallet();
-      wallet.setSecret('Ky1vhqYGCiCbPd8nmbUeGfwLdXB1h5aGwxHwpXrzYRfY5cTZPDo4');
-      assertStrictEqual(wallet.getAddress(), '3CKN8HTCews4rYJYsyub5hjAVm5g5VFdQJ');
+      wallet.setSecret('L1AnyqFtkCRT2xhkoH9uMNjz6Pa83oyAFpMNALnfEnC8ZKFxNN18');
+      assertStrictEqual(wallet.getAddress(), 'vTNyU1Dtf4DngohEPxKN1m1Ap3zp5GWMBR');
 
       utxos = [
         {
@@ -130,7 +130,7 @@ export default class Selftest extends Component {
       const tx = bitcoin.Transaction.fromHex(txNew.tx.toHex());
       assertStrictEqual(
         txNew.tx.toHex(),
-        '020000000001010c86eb9013616e38b4752e56e5683e864cb34fcd7fe790bdc006b60c08446ba50000000017160014139dc70d73097f9d775f8a3280ba3e3435515641ffffffff02905f0100000000001976a914aa381cd428a4e91327fd4434aa0a08ff131f1a5a88aca73303000000000017a914749118baa93fb4b88c28909c8bf0a8202a0484f4870248304502210080545d30e3d30dff272ab11c91fd6150170b603239b48c3d56a3fa66bf240085022003762404e1b45975adc89f61ec1569fa19d6d4a8d405e060897754c489ebeade012103a5de146762f84055db3202c1316cd9008f16047f4f408c1482fdb108217eda0800000000',
+        '020000000001010c86eb9013616e38b4752e56e5683e864cb34fcd7fe790bdc006b60c08446ba50000000017160014b3bf5111f957c7c36713a45036e39f4d53ac2756ffffffff02905f0100000000001976a914aa381cd428a4e91327fd4434aa0a08ff131f1a5a88aca73303000000000017a914d8cdcccd0665fdfe8634b382f2fa7c9d3785de8987024730440220201d8a76beefc290e1dd5b8d03bed140f8f0da88610679a1b149ee54df7e094f022054bbc6ce9791352c7ff6b075368a83fc711e1f80ba3abd4cfdb5f6f145dc45360121039e5d45a241a553697ab060610b0650fe4c3e930ec81333751585b8a5aced651a00000000',
       );
       assertStrictEqual(tx.ins.length, 1);
       assertStrictEqual(tx.outs.length, 2);
@@ -165,7 +165,7 @@ export default class Selftest extends Component {
         network: bitcoin.networks.bitcoinil,
       }).address;
 
-      if (address !== '3GcKN7q7gZuZ8eHygAhHrvPa5zZbG5Q1rK') {
+      if (address !== 'vNXvQughrUkpzgzynSzmSqxV24HPaprdQy') {
         throw new Error('bip49 is not ok');
       }
 
@@ -194,11 +194,11 @@ export default class Selftest extends Component {
         //
 
         const hd4 = new HDSegwitBech32Wallet();
-        hd4._xpub = 'zpub6r7jhKKm7BAVx3b3nSnuadY1WnshZYkhK8gKFoRLwK9rF3Mzv28BrGcCGA3ugGtawi1WLb2vyjQAX9ZTDGU5gNk2bLdTc3iEXr6tzR1ipNP';
+        hd4._xpub = 'zpub6quRhoBcGTv8Lpg7rwzadRxvgrXAh23TxqNRHt4aVbtqhxWhBLRNby4mso7549rq6dop58GRCZX69mftZ1QzQ6Zs2aMJitBqu94bQZyaEiV';
         await hd4.fetchBalance();
-        if (hd4.getBalance() !== 200000) throw new Error('Could not fetch HD Bech32 balance');
+        if (hd4.getBalance() !== 0) throw new Error('Could not fetch HD Bech32 balance');
         await hd4.fetchTransactions();
-        if (hd4.getTransactions().length !== 4) throw new Error('Could not fetch HD Bech32 transactions');
+        if (hd4.getTransactions().length !== 0) throw new Error('Could not fetch HD Bech32 transactions');
       } else {
         // skipping RN-specific test
       }
