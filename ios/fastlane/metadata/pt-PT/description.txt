@@ -1,10 +1,10 @@
-Uma carteira de Bitcoin que permite guardar, enviar Bitcoin, receber Bitcoin e comprar Bitcoin, focada na segurança e simplicidade.
+Uma carteira de Bitcoin Israel que permite guardar, enviar Bitcoin Israel, receber Bitcoin Israel e comprar Bitcoin Israel, focada na segurança e simplicidade.
 
-Com a BlueWallet, uma Carteira de Bitcoin em que controlas as chaves privadas. Uma Carteira de Bitcoin criada por utilizadores de Bitcoin para a comunidade.
+Com a BitilWallet, uma Carteira de Bitcoin Israel em que controlas as chaves privadas. Uma Carteira de Bitcoin Israel criada por utilizadores de Bitcoin Israel para a comunidade.
 
 Podes fazer transações com qualquer pessoa no mundo e transformar o sistema financeiro directamente do teu bolso.
 
-Podes criar gratuitamente uma quantidade ilimitada de carteiras de Bitcoin ou importar as carteiras que já tens para a tua app BlueWallet. É fácil e rápido!
+Podes criar gratuitamente uma quantidade ilimitada de carteiras de Bitcoin Israel ou importar as carteiras que já tens para a tua app BitilWallet. É fácil e rápido!
 
 ---
 
@@ -19,7 +19,7 @@ Negação plausível
 Password que decripta carteiras falsas. Para casos especias onde possas ser obrigado a revelar a sua password, podes revelar a password falsa. Matem as tuas bitcoin protegidas.
 
 Encriptação completa
-Construída em cima da multi-camada criptografica do iOS, A BlueWallet encripta tudo com uma password adicional.
+Construída em cima da multi-camada criptografica do iOS, A BitilWallet encripta tudo com uma password adicional.
 
 Carteiras SegWit e HD
 SegWit suportado (Ajuda a diminuir as fees ainda mais) e carteiras HD activadas.
@@ -36,13 +36,13 @@ Substituição de Fee (RBF)
 Acelera as tuas transacções aumentando a fee (BIP125). Podes também alterar o endereço de destinatário em transações não confirmadas.
 
 Carteira Watch-only
-Carteira de Watch-only/ver apenas, observa o teu cold storage de Bitcoin sem ter de lhe tocar.
+Carteira de Watch-only/ver apenas, observa o teu cold storage de Bitcoin Israel sem ter de lhe tocar.
 
 Lightning Network
-Carteira Lightning sem configurações. Transacções baratas e ultra rápidas com a melhor experiência do Bitcoin.
+Carteira Lightning sem configurações. Transacções baratas e ultra rápidas com a melhor experiência do Bitcoin Israel.
 
-Comprar Bitcoin
-Agora já podes comprar Bitcoin directamente sem sair da tua carteira e com as tuas chaves privadas.
+Comprar Bitcoin Israel
+Agora já podes comprar Bitcoin Israel directamente sem sair da tua carteira e com as tuas chaves privadas.
 
 Local Trader
-Plataforma p2p Bitcoin de trading, que permite comprar e vender bitcoin directamente para outros utilizadores sem terceiros.
+Plataforma p2p Bitcoin Israel de trading, que permite comprar e vender bitcoin directamente para outros utilizadores sem terceiros.

@@ -1,6 +1,6 @@
-Uma carteira Bitcoin que permite armazenar, enviar bitcoin, receber bitcoin e comprar bitcoin com foco em segurança e simplicidade.
+Uma carteira Bitcoin Israel que permite armazenar, enviar bitcoin, receber bitcoin e comprar bitcoin com foco em segurança e simplicidade.
 
-BlueWallet é uma carteira de bitcoin onde você tem posse das chaves privadas. Uma carteira Bitcoin criada para a comunidade por usuários do Bitcoin.
+BitilWallet é uma carteira de bitcoin onde você tem posse das chaves privadas. Uma carteira Bitcoin Israel criada para a comunidade por usuários do Bitcoin Israel.
 
 Você pode fazer transações com qualquer pessoa no mundo e transformar o sistema financeiro direto do seu bolso.
 
@@ -23,7 +23,7 @@ Totalmente criptografada
 Além da criptografia multicamadas do iOS, criptografamos tudo com senhas adicionais
 
 Nó completo
-Conecte com seu full node Bitcoin usando Electrum
+Conecte com seu full node Bitcoin Israel usando Electrum
 
 Armazenamento frio (Cold)
 Conecte com sua hardwallet e mantenha suas moedas em armazenamento frio
@@ -44,10 +44,10 @@ Carteiras Watch-only
 Carteiras somente leitura para você observar seu armazenamento frio sem tocar a hardwallet.
 
 Lightning Network
-Carteira Lightning sem precisar configurar nada. Transações muito baratas e rápidas para ter a melhor experiência com o Bitcoin.
+Carteira Lightning sem precisar configurar nada. Transações muito baratas e rápidas para ter a melhor experiência com o Bitcoin Israel.
 
-Compre Bitcoin
-Faça parte da revolução financeira aberta com a habilidade de comprar Bitcoin direto na sua carteira.
+Compre Bitcoin Israel
+Faça parte da revolução financeira aberta com a habilidade de comprar Bitcoin Israel direto na sua carteira.
 
 Trader local
-Uma plataforma de negociação de Bitcoin p2p que permite comprar e vender bitcoin de outros usuários diretamente, sem terceiros.
+Uma plataforma de negociação de Bitcoin Israel p2p que permite comprar e vender bitcoin de outros usuários diretamente, sem terceiros.

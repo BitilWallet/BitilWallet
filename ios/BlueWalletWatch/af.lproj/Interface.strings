@@ -17,14 +17,14 @@
 /* Class = "WKInterfaceLabel"; text = "memo"; ObjectID = "AJ8-p9-ID7"; */
 "AJ8-p9-ID7.text" = "memo";
 
-/* Class = "WKInterfaceController"; title = "BlueWallet"; ObjectID = "AgC-eL-Hgc"; */
-"AgC-eL-Hgc.title" = "BlueWallet";
+/* Class = "WKInterfaceController"; title = "BitilWallet"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "BitilWallet";
 
 /* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "GqE-KB-TRD"; */
 "GqE-KB-TRD.text" = "Time";
 
-/* Class = "WKInterfaceLabel"; text = "No wallets available. Please, add one by opening BlueWallet on your iPhone."; ObjectID = "I2I-8t-hp3"; */
-"I2I-8t-hp3.text" = "No wallets available. Please, add one by opening BlueWallet on your iPhone.";
+/* Class = "WKInterfaceLabel"; text = "No wallets available. Please, add one by opening BitilWallet on your iPhone."; ObjectID = "I2I-8t-hp3"; */
+"I2I-8t-hp3.text" = "No wallets available. Please, add one by opening BitilWallet on your iPhone.";
 
 /* Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "IdU-wH-bcW"; */
 "IdU-wH-bcW.text" = "Alert Label";

@@ -1,10 +1,10 @@
 Store, send and receive bitcoin with the wallet focus on security and simplicity.
 
-On BlueWallet you own your private keys. A Bitcoin wallet focused on us the users.
+On BitilWallet you own your private keys. A Bitcoin Israel wallet focused on us the users.
 
 You can instantly transact with anyone in the world and transform the financial system right from your pocket.
 
-Create for free unlimited number of bitcoin wallets or access your existing one on your iOS device. It's simple and fast.
+Create for free unlimited number of Bitcoin Israel wallets or access your existing one on your iOS device. It's simple and fast.
 
 _____
 
@@ -27,7 +27,7 @@ SegWit supported and HD wallets enable
 2 - Focused on your experience
 
 Be in control
-On the Bitcoin wallet the Private keys never leave your device.  You control your private keys
+On the Bitcoin Israel wallet the Private keys never leave your device.  You control your private keys
 
 Flexible fees
 Starting from 1 Satoshi.  Defined by you, the user

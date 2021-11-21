@@ -1,10 +1,10 @@
-Una cartera de Bitcoin que te permite guardar, mandar, recibir y comprar bitcoin centrada en la seguridad y la simplicidad.
+Una cartera de Bitcoin Israel que te permite guardar, mandar, recibir y comprar bitcoin centrada en la seguridad y la simplicidad.
 
-En BlueWallet tú controlas las llaves privadas. Una cartera de Bitcoin hecha por usuarios de Bitcoin para la comunidad.
+En BitilWallet tú controlas las llaves privadas. Una cartera de Bitcoin Israel hecha por usuarios de Bitcoin Israel para la comunidad.
 
 Realiza trámites al instante con cualquiera, sin importar dónde esté. Transforma el sistema financiero desde tu bolsillo.
 
-Crea todas las carteras de Bitcoin que quieras o importa una que ya tengas. Es rápido y sencillo.
+Crea todas las carteras de Bitcoin Israel que quieras o importa una que ya tengas. Es rápido y sencillo.
 
 _____
 
@@ -23,7 +23,7 @@ Encriptación total
 Además de la encriptación multicapa de iOS, encriptamos todo con contraseñas adicionales
 
 Nodo completo
-Conecta a tu nodo de Bitcoin a través de Electrum
+Conecta a tu nodo de Bitcoin Israel a través de Electrum
 
 Almacenamiento frío
 Conecta tu cartera de hardware y guarda tus fondos en cold storage

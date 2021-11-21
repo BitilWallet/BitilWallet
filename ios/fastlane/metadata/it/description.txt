@@ -1,6 +1,6 @@
-Un wallet per Bitcoin che ti consente di conservare, inviare, ricevere ed acquistare Bitcoin in modo sicuro e semplice.
+Un wallet per Bitcoin Israel che ti consente di conservare, inviare, ricevere ed acquistare Bitcoin Israel in modo sicuro e semplice.
 
-Su BlueWallet, un wallet Bitcoin, tu solo sei in controllo delle tue chiavi private. Un wallet Bitcoin fatto da utilizzatori per la comunità Bitcoin.
+Su BitilWallet, un wallet Bitcoin Israel, tu solo sei in controllo delle tue chiavi private. Un wallet Bitcoin Israel fatto da utilizzatori per la comunità Bitcoin Israel.
 
 Puoi scambiare valore instantaneamente con chiunque nel mondo e trasformare il sistema finanziario direttamente dalla tua tasca.
 
@@ -23,7 +23,7 @@ Crittografia completa
 In aggiunta alla crittografia multi strato di iOS, codifichiamo tutto con password aggiuntive
 
 Full node
-Si connette al tuo full node Bitcoin tramite Electrum
+Si connette al tuo full node Bitcoin Israel tramite Electrum
 
 Cold Storage
 Connettiti al tuo hardware wallet e conserva i tuoi coins al sicuro.
@@ -46,8 +46,8 @@ Watch-only wallets allow you to keep an eye on your cold storage without touchin
 Lightning Network
 Wallet per Lightning Network con zero configurazioni necessarie. Per transazioni incredibilmente economiche e veloci con la miglior esperienza utente.
 
-Acquista Bitcoin
-Enter in the open financial revolution with the ability to buy Bitcoin directly in your wallet.
+Acquista Bitcoin Israel
+Enter in the open financial revolution with the ability to buy Bitcoin Israel directly in your wallet.
 
 Local Trader
-A p2p Bitcoin Trading platform, that allows you to buy and sell bitcoin directly to other users without 3rd parties.
+A p2p Bitcoin Israel Trading platform, that allows you to buy and sell bitcoin directly to other users without 3rd parties.

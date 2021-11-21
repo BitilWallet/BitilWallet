@@ -7,15 +7,15 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19044"/>
     </dependencies>
     <scenes>
-        <!--BlueWallet-->
+        <!--BitilWallet-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller title="BlueWallet" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BlueWalletWatch" customModuleProvider="target">
+                <controller title="BitilWallet" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BitilWalletWatch" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="jUH-JS-ccp">
                             <items>
-                                <tableRow identifier="WalletInformation" id="Rdv-UZ-gaS" customClass="WalletInformation" customModule="BlueWalletWatch_Extension">
-                                    <group key="rootItem" width="1" height="66.5" alignment="left" backgroundImage="walletHD" radius="8" id="H28-wi-Sks" customClass="WalletInformation" customModule="BlueWalletWatch_Extension">
+                                <tableRow identifier="WalletInformation" id="Rdv-UZ-gaS" customClass="WalletInformation" customModule="BitilWalletWatch_Extension">
+                                    <group key="rootItem" width="1" height="66.5" alignment="left" backgroundImage="walletHD" radius="8" id="H28-wi-Sks" customClass="WalletInformation" customModule="BitilWalletWatch_Extension">
                                         <items>
                                             <label width="6" alignment="left" id="RJV-QC-scb"/>
                                             <group width="0.90000000000000002" alignment="center" verticalAlignment="center" layout="vertical" id="UrU-xX-jYW">
@@ -37,7 +37,7 @@
                                 </tableRow>
                             </items>
                         </table>
-                        <label alignment="center" verticalAlignment="center" hidden="YES" text="No wallets available. Please, add one by opening BlueWallet on your iPhone." textAlignment="center" numberOfLines="0" id="I2I-8t-hp3"/>
+                        <label alignment="center" verticalAlignment="center" hidden="YES" text="No wallets available. Please, add one by opening BitilWallet on your iPhone." textAlignment="center" numberOfLines="0" id="I2I-8t-hp3"/>
                     </items>
                     <connections>
                         <outlet property="noWalletsAvailableLabel" destination="I2I-8t-hp3" id="c4O-Mg-3ps"/>
@@ -50,9 +50,9 @@
         <!--Transactions-->
         <scene sceneID="KqX-Cy-IJm">
             <objects>
-                <controller identifier="WalletDetailsInterfaceController" title="Transactions" id="XWa-4i-Abg" customClass="WalletDetailsInterfaceController" customModule="BlueWalletWatch_Extension">
+                <controller identifier="WalletDetailsInterfaceController" title="Transactions" id="XWa-4i-Abg" customClass="WalletDetailsInterfaceController" customModule="BitilWalletWatch_Extension">
                     <items>
-                        <group width="1" height="66.5" alignment="left" backgroundImage="walletHD" radius="8" id="275-K7-Qhe" customClass="WalletInformation" customModule="BlueWalletWatch_Extension">
+                        <group width="1" height="66.5" alignment="left" backgroundImage="walletHD" radius="8" id="275-K7-Qhe" customClass="WalletInformation" customModule="BitilWalletWatch_Extension">
                             <items>
                                 <label width="6" alignment="left" id="QMf-Fm-1cw"/>
                                 <group width="1" widthAdjustment="-10" alignment="center" verticalAlignment="center" layout="vertical" id="jx2-si-OEm">
@@ -99,7 +99,7 @@
                         <label alignment="center" verticalAlignment="bottom" text="No Transactions" textAlignment="left" id="pi4-Bk-Jiq"/>
                         <table alignment="left" id="nyQ-lX-DX0">
                             <items>
-                                <tableRow identifier="TransactionTableRow" id="HuQ-ep-L9j" customClass="TransactionTableRow" customModule="BlueWalletWatch_Extension">
+                                <tableRow identifier="TransactionTableRow" id="HuQ-ep-L9j" customClass="TransactionTableRow" customModule="BitilWalletWatch_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" id="3X8-cc-rOv">
                                         <items>
                                             <button alignment="left" id="NEN-rG-rmr">
@@ -172,14 +172,14 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="BlueWalletWatch" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="BitilWalletWatch" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Receive-->
         <scene sceneID="tQ7-Qr-5i4">
             <objects>
-                <controller identifier="ReceiveInterfaceController" title="Receive" fullBounds="YES" id="egq-Yw-qK5" customClass="ReceiveInterfaceController" customModule="BlueWalletWatch_Extension">
+                <controller identifier="ReceiveInterfaceController" title="Receive" fullBounds="YES" id="egq-Yw-qK5" customClass="ReceiveInterfaceController" customModule="BitilWalletWatch_Extension">
                     <items>
                         <imageView height="0.90000000000000002" alignment="left" id="Dnb-sM-wdN"/>
                         <label width="1" height="1" alignment="center" verticalAlignment="center" hidden="YES" text="Label" numberOfLines="0" minimumScaleFactor="0.5" id="c3W-8T-srG"/>
@@ -212,7 +212,7 @@
         <!--ViewQRCodefaceController-->
         <scene sceneID="jZ8-sK-IyQ">
             <objects>
-                <controller identifier="ViewQRCodefaceController" fullBounds="YES" id="ON9-Qg-65y" customClass="ViewQRCodefaceController" customModule="BlueWalletWatch_Extension">
+                <controller identifier="ViewQRCodefaceController" fullBounds="YES" id="ON9-Qg-65y" customClass="ViewQRCodefaceController" customModule="BitilWalletWatch_Extension">
                     <items>
                         <imageView width="1" height="1" heightAdjustment="-5" alignment="left" image="textfor" animationDuration="1" id="cp4-B3-gV6"/>
                         <label width="1" height="1" alignment="center" verticalAlignment="center" hidden="YES" text="Label" numberOfLines="0" minimumScaleFactor="0.5" id="JMO-XZ-1si"/>
@@ -230,7 +230,7 @@
         <!--SpecifyInterfaceController-->
         <scene sceneID="erR-Ld-VGW">
             <objects>
-                <controller identifier="SpecifyInterfaceController" id="aUg-UP-Vh5" customClass="SpecifyInterfaceController" customModule="BlueWalletWatch_Extension">
+                <controller identifier="SpecifyInterfaceController" id="aUg-UP-Vh5" customClass="SpecifyInterfaceController" customModule="BitilWalletWatch_Extension">
                     <items>
                         <button width="1" alignment="left" title="Description" id="fcI-6Z-moQ">
                             <connections>
@@ -266,7 +266,7 @@
         <!--NumericKeypadInterfaceController-->
         <scene sceneID="4Mp-O7-Llm">
             <objects>
-                <controller identifier="NumericKeypadInterfaceController" fullBounds="YES" id="2PN-Fb-8j5" customClass="NumericKeypadInterfaceController" customModule="BlueWalletWatch_Extension">
+                <controller identifier="NumericKeypadInterfaceController" fullBounds="YES" id="2PN-Fb-8j5" customClass="NumericKeypadInterfaceController" customModule="BitilWalletWatch_Extension">
                     <items>
                         <group height="0.25" alignment="left" id="kaq-2v-f7r">
                             <items>
@@ -367,7 +367,7 @@
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="BlueWalletWatch" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="BitilWalletWatch" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="220" y="1029"/>
         </scene>

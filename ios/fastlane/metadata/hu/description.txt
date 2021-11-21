@@ -1,10 +1,10 @@
-Egy Bitcoin tárca, amiben biztonságosan és egyszerűen tárolhatod-, utalhatod a Bitcoinodat, fogadhatsz Bitcoin utalást és vásárolhatsz Bitcoint.
+Egy Bitcoin Israel tárca, amiben biztonságosan és egyszerűen tárolhatod-, utalhatod a Bitcoin Israelodat, fogadhatsz Bitcoin Israel utalást és vásárolhatsz Bitcoin Israelt.
 
-A BlueWallet egy Bitcoin tárca, ahol te irányítod a privát kulcsokat. Egy Bitcoin tárca, amit Bitcoin felhasználok készítettek a közösségnek. 
+A BitilWallet egy Bitcoin Israel tárca, ahol te irányítod a privát kulcsokat. Egy Bitcoin Israel tárca, amit Bitcoin Israel felhasználok készítettek a közösségnek. 
 
 Azonnal indíthatsz közvetlen tranzakciókat bárkinek a világon, egy gombnyomással megváltoztatva a pénzügyi rendszert. 
 
-Hozz létre korlátlan számú, ingyenes Bitcoin tárcát vagy importáld a már meglévő tárcáidat. Egyszerűen és gyorsan.
+Hozz létre korlátlan számú, ingyenes Bitcoin Israel tárcát vagy importáld a már meglévő tárcáidat. Egyszerűen és gyorsan.
 
 _____
 
@@ -23,10 +23,10 @@ Teljes titkosítás
 Az iOS többszintű titkosításán felül, mi jelszóval titkosítunk mindent 
 
 Teljes node
-Csatlakozz a saját Bitcoin teljes node-hoz, Electrum tárcán keresztül.
+Csatlakozz a saját Bitcoin Israel teljes node-hoz, Electrum tárcán keresztül.
 
 Offline háttértár 
-Csatlakozz a hardver tárcádhoz és tartsd a Bitcoint offline.
+Csatlakozz a hardver tárcádhoz és tartsd a Bitcoin Israelt offline.
 
 2 - Fókuszban a felhasználói élmény
 
@@ -44,10 +44,10 @@ Tárca - csak megtekintésre
 "Tárca - csak megtekintésre" lehetővé teszi, hogy szemmel tartsd az offline tárcád a hardver érintése nélkül.
 
 Lightning hálózat
-Lightning tárca, konfigurálás nélkül. Rendkívül olcsó és gyors tranzakció a legjobb Bitcoin felhasználói élménnyel.
+Lightning tárca, konfigurálás nélkül. Rendkívül olcsó és gyors tranzakció a legjobb Bitcoin Israel felhasználói élménnyel.
 
-Bitcoin vétel
-Kapcsolódj be a nyílt pénzügyi forradalomba és vegyél Bitcoint közvetlenül a tárcádba.
+Bitcoin Israel vétel
+Kapcsolódj be a nyílt pénzügyi forradalomba és vegyél Bitcoin Israelt közvetlenül a tárcádba.
 
 Közeli elfogadóhelyek
-A peer-to-peer Bitcoin kereskedési platform lehetővé teszi, hogy közvetlenül vegyél- és eladj Bitcoint más felhasználóknak, közvetítő nélkül.
+A peer-to-peer Bitcoin Israel kereskedési platform lehetővé teszi, hogy közvetlenül vegyél- és eladj Bitcoin Israelt más felhasználóknak, közvetítő nélkül.

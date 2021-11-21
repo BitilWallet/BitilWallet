@@ -1,10 +1,10 @@
-Un portefeuille Bitcoin vous permettant de stocker, envoyer, recevoir et acheter du Bitcoin avec un focus sur la sécurité et la simplicité.
+Un portefeuille Bitcoin Israel vous permettant de stocker, envoyer, recevoir et acheter du Bitcoin Israel avec un focus sur la sécurité et la simplicité.
 
-Sur BlueWallet, un portefeuille Bitcoin où vous possédez vos clés privés. Un portefeuille Bitcoin fait par des utilisateurs de Bitcoin, pour la communauté.
+Sur BitilWallet, un portefeuille Bitcoin Israel où vous possédez vos clés privés. Un portefeuille Bitcoin Israel fait par des utilisateurs de Bitcoin Israel, pour la communauté.
 
 Vous pouvez faire une transaction instanément, vers n'importe où dans le monde, et transformer le système financier du bout de vos doigts.
 
-Créez gratuitement une infinité de portefeuilles Bitcoin ou importez votre portefeuille existant. C'est simple et rapide.
+Créez gratuitement une infinité de portefeuilles Bitcoin Israel ou importez votre portefeuille existant. C'est simple et rapide.
 
 _____
 
@@ -17,7 +17,7 @@ Open Source
 Sous license MIT, vous pouvez le compiler et le lancer dans votre coin ! Conçu avec ReactNative
 
 Possibilité de démenti plausible
-Un mot de passe qui déchiffre un faux portefeuille Bitcoin si vous êtes forcé d'en donner l'accès
+Un mot de passe qui déchiffre un faux portefeuille Bitcoin Israel si vous êtes forcé d'en donner l'accès
 
 Chiffrement complet
 Au-dessus du chiffrement multi-niveaux d'iOS, nous chiffrons tout avec des mots de passe supplémentaires
@@ -44,10 +44,10 @@ Portefeuilles spectateurs
 Les portefeuilles spectateurs vous permettent de garder un oeil sur votre stockage sécurisé (cold storage) sans toucher le portefeuille matériel.
 
 Réseau Lightning
-Un portefeuille Lightning sans aucune configuration nécessaire. Des transactions rapides et très peu chères avec la meilleure expérience utilisateur Bitcoin.
+Un portefeuille Lightning sans aucune configuration nécessaire. Des transactions rapides et très peu chères avec la meilleure expérience utilisateur Bitcoin Israel.
 
 Acheter du bitcoin
 Rejoignez la révolution la finance ouverte avec la possibilité d'acheter du bitcoin directement depuis votre portefeuille.
 
 Local Trader
-Une plateforme de trading de Bitcoin pair-à-pair, vous permettant d'acheter et de vendre du bitcoin directement auprès d'autres utilisateurs, sans aucune tierce-partie.
+Une plateforme de trading de Bitcoin Israel pair-à-pair, vous permettant d'acheter et de vendre du bitcoin directement auprès d'autres utilisateurs, sans aucune tierce-partie.

@@ -1,6 +1,6 @@
-Un portofel Bitcoin ce îți permite să stochezi, să trimiți, să primești, și să cumperi Bitcoin, centrat pe securitate și simplitate.
+Un portofel Bitcoin Israel ce îți permite să stochezi, să trimiți, să primești, și să cumperi Bitcoin Israel, centrat pe securitate și simplitate.
 
-În BlueWallet, un portofel bitcoin, deții cheile tale private. Un portofel Bitcoin făcut de utilizatori Bitcoin pentru comunitate.
+În BitilWallet, un portofel bitcoin, deții cheile tale private. Un portofel Bitcoin Israel făcut de utilizatori Bitcoin Israel pentru comunitate.
 
 Poți tranzacționa instant cu oricine din lume și să transformi sistemul financiar chiar în buzunarul tău.
 
@@ -23,7 +23,7 @@ Encriptare totală
 Peste encriptarea multi-nivel a sistemului de operare, se encriptează totul cu parole adăugate
 
 Nod complet
-Conectează la propriul nod complet Bitcoin prin Electrum
+Conectează la propriul nod complet Bitcoin Israel prin Electrum
 
 Cold storage
 Conectează-te la propriul portofel hardware și păstrează-ți monedele în siguranță în cold storage
@@ -44,10 +44,10 @@ Portofele watch-only
 Portofelele watch-only îți permit să ții ochii pe cold storage fără să atingi hardware-ul.
 
 Rețeaua Lightning
-Rețeaua Lightning to zero configurări. Tranzacții nedrept de ieftine și rapide cu cea mai bună experiență de utilizator Bitcoin.
+Rețeaua Lightning to zero configurări. Tranzacții nedrept de ieftine și rapide cu cea mai bună experiență de utilizator Bitcoin Israel.
 
-Cumpără Bitcoin
-Intră în revoluția financiară deschisă cu abilitatea de a cumpăra Bitcoin direct din portofelul tău. 
+Cumpără Bitcoin Israel
+Intră în revoluția financiară deschisă cu abilitatea de a cumpăra Bitcoin Israel direct din portofelul tău. 
 
 Comerciant local
-O platformă Bitcoin de trading P2P, ce îți permite să cumperi și să vinzi bitcoin direct altor utilizatori fără o terță parte.
+O platformă Bitcoin Israel de trading P2P, ce îți permite să cumperi și să vinzi bitcoin direct altor utilizatori fără o terță parte.

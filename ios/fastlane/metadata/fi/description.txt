@@ -1,6 +1,6 @@
-Bitcoin-lompakko, jonka avulla voit tallentaa, lähettää, vastaanottaa, sekä ostaa Bitcoinia keskittyen turvallisuuteen ja yksinkertaisuuteen.
+Bitcoin Israel-lompakko, jonka avulla voit tallentaa, lähettää, vastaanottaa, sekä ostaa Bitcoin Israelia keskittyen turvallisuuteen ja yksinkertaisuuteen.
 
-Sinä omistat yksityiset avaimesi BlueWallet bitcoin-lompakossa. Bitcoin-käyttäjien tekemä Bitcoin-lompakko yhteisölle.
+Sinä omistat yksityiset avaimesi BitilWallet bitcoin-lompakossa. Bitcoin Israel-käyttäjien tekemä Bitcoin Israel-lompakko yhteisölle.
 
 Voit tehdä heti kauppaa kenen tahansa kanssa maailmassa ja muuttaa rahoitusjärjestelmää suoraan taskustasi.
 
@@ -23,7 +23,7 @@ Täysi salaus
 IOS:in monikerroksisen salauksen lisäksi salaamme kaiken lisätyillä salasanoilla
 
 Täysi solmu
-Yhdistä täyteen Bitcoin solmuusi Electrumin kautta
+Yhdistä täyteen Bitcoin Israel solmuusi Electrumin kautta
 
 Kylmäsäilytys
 Yhdistä laitteistolompakkoosi ja säilytä kolikkosi kylmäsäilössä
@@ -44,10 +44,10 @@ Vain lukuoikeus-lompakot
 Vain lukuoikeus-lompakot antavat sinun pitää silmällä kylmäsäilöä koskematta laitteistoon.
 
 Salamaverkko
-Salamalompakko nolla-konfiguraatiolla. Luvattoman halvat ja nopeat siirrot parhaalla Bitcoin käyttökokemuksella.
+Salamalompakko nolla-konfiguraatiolla. Luvattoman halvat ja nopeat siirrot parhaalla Bitcoin Israel käyttökokemuksella.
 
 Osta bitcoinia
 Osallistu avoimeen talouden vallankumoukseen kyvyllä ostaa bitcoinia suoraan lompakkoosi.
 
 Paikallinen kauppias
-P2p Bitcoin-vaihtoalusta, jonka avulla voit ostaa ja myydä bitcoinia suoraan muille käyttäjille ilman kolmansia osapuolia.
+P2p Bitcoin Israel-vaihtoalusta, jonka avulla voit ostaa ja myydä bitcoinia suoraan muille käyttäjille ilman kolmansia osapuolia.
