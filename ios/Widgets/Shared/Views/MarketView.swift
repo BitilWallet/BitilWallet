@@ -51,7 +51,7 @@ struct MarketView: View {
 
 struct MarketView_Previews: PreviewProvider {
     static var previews: some View {
-      MarketView(marketData: MarketData(nextBlock: "26", sats: "9 134", price: "$10,000", rate: 0))
+      MarketView(marketData: MarketData(nextBlock: "15", sats: "3.003", price: "$0.333", rate: 0))
         .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }

@@ -42,9 +42,9 @@ struct WalletData {
     formatter.roundingMode = .up
     let value = NSNumber(value: balance / 100000000);
     if let valueString = formatter.string(from: value) {
-      return "\(String(describing: valueString)) BTC"
+      return "\(String(describing: valueString)) BTCIL"
     } else {
-      return "0 BTC"
+      return "0 BTCIL"
     }
   }
 

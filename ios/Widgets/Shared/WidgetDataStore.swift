@@ -33,7 +33,7 @@ struct WidgetDataStore: Codable {
     let numberFormatter = NumberFormatter()
     numberFormatter.locale = Locale(identifier: WidgetAPI.getUserPreferredCurrencyLocale())
     numberFormatter.numberStyle = .currency
-    numberFormatter.maximumFractionDigits = 0
+    numberFormatter.maximumFractionDigits = 3
     numberFormatter.minimumFractionDigits = 0
     if let rateString = numberFormatter.string(from: NSNumber(value: rateDouble)) {
       return rateString

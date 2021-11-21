@@ -14,13 +14,13 @@ struct PriceWidgetProvider: TimelineProvider {
   typealias Entry = PriceWidgetEntry
   
   func placeholder(in context: Context) -> PriceWidgetEntry {
-    return PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$10,000", rate: 10000, dateString: "2019-09-18T17:27:00+00:00"))
+    return PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$0.333", rate: 0.333, dateString: "2019-11-15T15:11:00+00:00"))
   }
   
   func getSnapshot(in context: Context, completion: @escaping (PriceWidgetEntry) -> ()) {
     let entry: PriceWidgetEntry
     if (context.isPreview) {
-      entry = PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$10,000", rate: 10000, dateString: "2019-09-18T17:27:00+00:00"))
+      entry = PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$0.333", rate: 0.333, dateString: "2019-11-15T15:11:00+00:00"))
     } else {
       entry = PriceWidgetEntry(date: Date(), currentMarketData: emptyMarketData)
     }
@@ -30,7 +30,7 @@ struct PriceWidgetProvider: TimelineProvider {
   func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
     var entries: [PriceWidgetEntry] = []
     if (context.isPreview) {
-      let entry = PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$10,000", rate: 10000, dateString: "2019-09-18T17:27:00+00:00"))
+      let entry = PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$0.333", rate: 0.333, dateString: "2019-11-15T15:11:00+00:00"))
       entries.append(entry)
       let timeline = Timeline(entries: entries, policy: .atEnd)
       completion(timeline)
@@ -91,13 +91,13 @@ struct PriceWidget: Widget {
       PriceWidgetEntryView(entry: entry)
     }
     .configurationDisplayName("Price")
-    .description("View the current price of Bitcoin.").supportedFamilies([.systemSmall])
+    .description("View the current price of Bitcoin Israel.").supportedFamilies([.systemSmall])
   }
 }
 
 struct PriceWidget_Previews: PreviewProvider {
   static var previews: some View {
-    PriceWidgetEntryView(entry: PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$10,000", rate: 10000, dateString: "2019-09-18T17:27:00+00:00")))
+    PriceWidgetEntryView(entry: PriceWidgetEntry(date: Date(), currentMarketData: MarketData(nextBlock: "", sats: "", price: "$0.333", rate: 0.333, dateString: "2019-11-15T15:11:00+00:00")))
       .previewContext(WidgetPreviewContext(family: .systemSmall))
   }
 }

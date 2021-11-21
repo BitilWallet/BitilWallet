@@ -15,7 +15,7 @@ struct CurrencyError: LocalizedError {
 var numberFormatter: NumberFormatter {
   let formatter = NumberFormatter()
   formatter.numberStyle = .decimal
-  formatter.maximumFractionDigits = 0
+  formatter.maximumFractionDigits = 3
   formatter.locale = Locale.current
   return formatter
 }
@@ -27,6 +27,8 @@ class WidgetAPI {
 
     var urlString: String
     switch source {
+    case "BitilApi":
+      urlString = "https://api.bitilwallet.com/currentprice.json"
     case "Yadio":
       urlString = "https://api.yadio.io/json/\(endPointKey)"
     case "BitcoinduLiban":
@@ -53,6 +55,12 @@ class WidgetAPI {
 
       var latestRateDataStore: WidgetDataStore?
       switch source {
+      case "BitilApi":
+              guard let tickerDict = json["rates"] as? [String: Any],
+              let rateDouble = tickerDict[endPointKey] as? Double,
+              let lastUpdatedString = json["updatedISO"] as? String
+        else { break }
+        latestRateDataStore = WidgetDataStore(rate: String(rateDouble), lastUpdate: lastUpdatedString, rateDouble: rateDouble)
       case "Yadio":
         guard let rateDict = json[endPointKey] as? [String: Any],
               let rateDouble = rateDict["price"] as? Double,

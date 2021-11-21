@@ -109,8 +109,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
           return
         }
         
-        guard let bpi = result["bpi"] as? Dictionary<String, Any>, let preferredCurrency = bpi[userPreferredCurrency] as? Dictionary<String, Any>, let rateString = preferredCurrency["rate"] as? String,
-          let time = result["time"] as? Dictionary<String, Any>, let lastUpdatedString = time["updatedISO"] as? String
+        guard let rates = result["rates"] as? Dictionary<String, Any>, let rateString = rates[userPreferredCurrency] as? String,
+          let lastUpdatedString = result["updatedISO"] as? String
           else {
             self.lastUpdatedDate.text = "Obtained unexpected information."
             completionHandler(.failed)
