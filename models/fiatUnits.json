@@ -21,7 +21,7 @@
       "endPointKey": "ARS",
       "symbol": "$",
       "locale": "es-AR",
-      "source": "Yadio"
+      "source": "BitilApi"
     },
     "AUD": {
       "endPointKey": "AUD",
@@ -123,19 +123,19 @@
       "endPointKey": "INR",
       "symbol": "₹",
       "locale": "hi-HN",
-      "source": "wazirx"
+      "source": "BitilApi"
     },
     "IRT": {
       "endPointKey": "IRT",
       "symbol": "تومان",
       "locale": "fa-IR",
-      "source": "Exir"
+      "source": "BitilApi"
     },
     "IRR": {
       "endPointKey": "IRR",
       "symbol": "﷼",
       "locale": "fa-IR",
-      "source": "Exir"
+      "source": "BitilApi"
     },
     "ISK": {
       "endPointKey": "ISK",
@@ -171,7 +171,7 @@
       "endPointKey": "LBP",
       "symbol": "ل.ل.",
       "locale": "ar-LB",
-      "source": "BitcoinduLiban"
+      "source": "BitilApi"
     },
     "MXN": {
       "endPointKey": "MXN",
@@ -297,7 +297,7 @@
       "endPointKey": "VES",
       "symbol": "Bs.",
       "locale": "es-VE",
-      "source": "Yadio"
+      "source": "BitilApi"
     },
     "ZAR": {
       "endPointKey": "ZAR",
