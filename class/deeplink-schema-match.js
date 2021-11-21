@@ -15,8 +15,8 @@ class DeeplinkSchemaMatch {
     return (
       lowercaseString.startsWith('bitcoinil:') ||
       lowercaseString.startsWith('lightning:') ||
-      lowercaseString.startsWith('blue:') ||
-      lowercaseString.startsWith('bluewallet:') ||
+      lowercaseString.startsWith('bitil:') ||
+      lowercaseString.startsWith('bitilwallet:') ||
       lowercaseString.startsWith('lapp:') ||
       lowercaseString.startsWith('aopp:')
     );
@@ -38,10 +38,10 @@ class DeeplinkSchemaMatch {
       return;
     }
 
-    if (event.url.toLowerCase().startsWith('bluewallet:bitcoinil:') || event.url.toLowerCase().startsWith('bluewallet:lightning:')) {
+    if (event.url.toLowerCase().startsWith('bitilwallet:bitcoinil:') || event.url.toLowerCase().startsWith('bitilwallet:lightning:')) {
       event.url = event.url.substring(11);
-    } else if (event.url.toLocaleLowerCase().startsWith('bluewallet://widget?action=')) {
-      event.url = event.url.substring('bluewallet://'.length);
+    } else if (event.url.toLocaleLowerCase().startsWith('bitilwallet://widget?action=')) {
+      event.url = event.url.substring('bitilwallet://'.length);
     }
 
     if (DeeplinkSchemaMatch.isWidgetAction(event.url)) {
@@ -214,7 +214,7 @@ class DeeplinkSchemaMatch {
               params: { uri: event.url },
             },
           ]);
-        } else if (urlObject.protocol === 'bluewallet:' || urlObject.protocol === 'lapp:' || urlObject.protocol === 'blue:') {
+        } else if (urlObject.protocol === 'bitilwallet:' || urlObject.protocol === 'lapp:' || urlObject.protocol === 'bitil:') {
           switch (urlObject.host) {
             case 'openlappbrowser': {
               console.log('opening LAPP', urlObject.query.url);
@@ -297,28 +297,28 @@ class DeeplinkSchemaMatch {
   }
 
   /**
-   * Extracts server from a deeplink like `bluewallet:setelectrumserver?server=electrum1.bluewallet.io%3A443%3As`
+   * Extracts server from a deeplink like `bitilwallet:setelectrumserver?server=electrum1.bitilwallet.com%3A50002%3As`
    * returns FALSE if none found
    *
    * @param url {string}
    * @return {string|boolean}
    */
   static getServerFromSetElectrumServerAction(url) {
-    if (!url.startsWith('bluewallet:setelectrumserver') && !url.startsWith('setelectrumserver')) return false;
+    if (!url.startsWith('bitilwallet:setelectrumserver') && !url.startsWith('setelectrumserver')) return false;
     const splt = url.split('server=');
     if (splt[1]) return decodeURIComponent(splt[1]);
     return false;
   }
 
   /**
-   * Extracts url from a deeplink like `bluewallet:setlndhuburl?url=https%3A%2F%2Flndhub.herokuapp.com`
+   * Extracts url from a deeplink like `bitilwallet:setlndhuburl?url=https%3A%2F%2Flndhub.herokuapp.com`
    * returns FALSE if none found
    *
    * @param url {string}
    * @return {string|boolean}
    */
   static getUrlFromSetLndhubUrlAction(url) {
-    if (!url.startsWith('bluewallet:setlndhuburl') && !url.startsWith('setlndhuburl')) return false;
+    if (!url.startsWith('bitilwallet:setlndhuburl') && !url.startsWith('setlndhuburl')) return false;
     const splt = url.split('url=');
     if (splt[1]) return decodeURIComponent(splt[1]);
     return false;

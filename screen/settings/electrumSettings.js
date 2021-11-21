@@ -220,7 +220,7 @@ export default class ElectrumSettings extends Component {
 
   onBarScanned = value => {
     if (DeeplinkSchemaMatch.getServerFromSetElectrumServerAction(value)) {
-      // in case user scans a QR with a deeplink like `bluewallet:setelectrumserver?server=electrum1.bluewallet.io%3A443%3As`
+      // in case user scans a QR with a deeplink like `bitilwallet:setelectrumserver?server=electrum1.bitilwallet.com%3A50002%3As`
       value = DeeplinkSchemaMatch.getServerFromSetElectrumServerAction(value);
     }
     const [host, port, type] = value.split(':');
