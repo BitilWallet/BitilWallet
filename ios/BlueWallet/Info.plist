@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>io.bluewallet.bluewallet.fetchTxsForWallet</string>
+		<string>com.bitilwallet.bitilwallet.fetchTxsForWallet</string>
 	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>BlueWallet</string>
+	<string>BitilWallet</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -25,7 +25,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>io.bluewallet.psbt</string>
+				<string>com.bitilwallet.psbt</string>
 			</array>
 		</dict>
 		<dict>
@@ -39,7 +39,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>io.bluewallet.psbt.txn</string>
+				<string>com.bitilwallet.psbt.txn</string>
 			</array>
 		</dict>
 		<dict>
@@ -53,7 +53,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>io.bluewallet.txt</string>
+				<string>com.bitilwallet.txt</string>
 			</array>
 		</dict>
 		<dict>
@@ -67,7 +67,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>io.bluewallet.json</string>
+				<string>com.bitilwallet.json</string>
 			</array>
 		</dict>
 		<dict>
@@ -81,7 +81,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>io.bluewallet.backup</string>
+				<string>com.bitilwallet.backup</string>
 			</array>
 		</dict>
 	</array>
@@ -93,11 +93,6 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
-	<key>NSUserActivityTypes</key>
-	<array>
-		<string>io.bluewallet.bluewallet.receiveonchain</string>
-		<string>io.bluewallet.bluewallet.xpub</string>
-	</array>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -111,11 +106,11 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>bitcoin</string>
+				<string>bitcoinil</string>
 				<string>lightning</string>
-				<string>bluewallet</string>
+				<string>bitilwallet</string>
 				<string>lapp</string>
-				<string>blue</string>
+				<string>bitil</string>
 				<string>aopp</string>
 			</array>
 		</dict>
@@ -157,7 +152,7 @@
 	<key>NSCalendarsUsageDescription</key>
 	<string>This alert should not show up as we do not require this data</string>
 	<key>NSCameraUsageDescription</key>
-	<string>In order to quickly scan the recipient&apos;s address, we need your permission to use the camera to scan their QR Code.</string>
+	<string>In order to quickly scan the recipient's address, we need your permission to use the camera to scan their QR Code.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>In order to use FaceID please confirm your permission.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
@@ -174,6 +169,11 @@
 	<string>In order to import an image for scanning, we need your permission to access your photo library.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>This alert should not show up as we do not require this data</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>com.bitilwallet.bitilwallet.receiveonchain</string>
+		<string>com.bitilwallet.bitilwallet.xpub</string>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
@@ -230,7 +230,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.psbt</string>
+			<string>com.bitilwallet.psbt</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -249,7 +249,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.psbt.txn</string>
+			<string>com.bitilwallet.psbt.txn</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -271,7 +271,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.psbt</string>
+			<string>com.bitilwallet.psbt</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -290,7 +290,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.psbt.txn</string>
+			<string>com.bitilwallet.psbt.txn</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -309,7 +309,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.txt</string>
+			<string>com.bitilwallet.txt</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -328,7 +328,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.json</string>
+			<string>com.bitilwallet.json</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -347,7 +347,7 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>io.bluewallet.backup</string>
+			<string>com.bitilwallet.backup</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>

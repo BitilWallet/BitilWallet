@@ -98,7 +98,7 @@ async function connectMain() {
     usingPeer = savedPeer;
   }
 
-  await DefaultPreference.setName('group.io.bluewallet.bluewallet');
+  await DefaultPreference.setName('group.com.bitilwallet.bitilwallet');
   try {
     if (usingPeer.host.endsWith('onion')) {
       const randomPeer = await getCurrentPeer();
@@ -141,7 +141,7 @@ async function connectMain() {
         setTimeout(connectMain, usingPeer.host.endsWith('.onion') ? 4000 : 500);
       }
     };
-    const ver = await mainClient.initElectrum({ client: 'bluewallet', version: '1.4' });
+    const ver = await mainClient.initElectrum({ client: 'bitilwallet', version: '1.4' });
     if (ver && ver[0]) {
       console.log('connected to ', ver);
       serverName = ver[0];
@@ -220,7 +220,7 @@ async function presentNetworkErrorAlert(usingPeer) {
                   await AsyncStorage.setItem(ELECTRUM_TCP_PORT, '');
                   await AsyncStorage.setItem(ELECTRUM_SSL_PORT, '');
                   try {
-                    await DefaultPreference.setName('group.io.bluewallet.bluewallet');
+                    await DefaultPreference.setName('group.com.bitilwallet.bitilwallet');
                     await DefaultPreference.clear(ELECTRUM_HOST);
                     await DefaultPreference.clear(ELECTRUM_SSL_PORT);
                     await DefaultPreference.clear(ELECTRUM_TCP_PORT);

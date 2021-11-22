@@ -1,4 +1,4 @@
-package io.bluewallet.bluewallet;
+package com.bitilwallet.bitilwallet;
 
 import com.wix.detox.Detox;
 

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   android:installLocation="auto"
-  package="io.bluewallet.bluewallet">
+  package="com.bitilwallet.bitilwallet">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
@@ -21,7 +21,7 @@
       android:theme="@style/AppTheme">
 
         <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_name"
-                    android:value="BlueWallet notifications"/> <!-- YOUR NOTIFICATION CHANNEL NAME -->
+                    android:value="BitilWallet notifications"/> <!-- YOUR NOTIFICATION CHANNEL NAME -->
         <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_description"
                     android:value="Notifications about incoming payments"/> <!-- YOUR NOTIFICATION CHANNEL DESCRIPTION -->
 
@@ -65,11 +65,11 @@
           <action android:name="android.intent.action.VIEW" />
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.category.BROWSABLE" />
-          <data android:scheme="bitcoin" />
+          <data android:scheme="bitcoinil" />
           <data android:scheme="lightning" />
-          <data android:scheme="bluewallet" />
+          <data android:scheme="bitilwallet" />
           <data android:scheme="lapp" />
-          <data android:scheme="blue" />
+          <data android:scheme="bitil" />
           <data android:scheme="aopp" />
         </intent-filter>
         <intent-filter>

@@ -44,7 +44,7 @@ RCT_EXPORT_MODULE();
 RCT_REMAP_METHOD(getMostRecentUserActivity, resolve: (RCTPromiseResolveBlock)resolve
      reject:(RCTPromiseRejectBlock)reject)
 {
-  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.io.bluewallet.bluewallet"];
+  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.bitilwallet.bitilwallet"];
   resolve([defaults valueForKey:@"onUserActivityOpen"]);
 }
 

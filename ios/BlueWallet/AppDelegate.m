@@ -59,7 +59,7 @@ static void InitializeFlipper(UIApplication *application) {
 #endif
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
-                                                   moduleName:@"BlueWallet"
+                                                   moduleName:@"BitilWallet"
                                             initialProperties:nil];
 
   if (@available(iOS 13.0, *)) {
@@ -82,8 +82,8 @@ static void InitializeFlipper(UIApplication *application) {
   
   
   /* For debugging purposes since iOS Simulator does not support handoff
-  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.io.bluewallet.bluewallet"];
-  [defaults setValue:@{@"activityType": @"io.bluewallet.bluewallet.receiveonchain", @"userInfo": @{@"address": @""}} forKey:@"onUserActivityOpen"];
+  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.bitilwallet.bitilwallet"];
+  [defaults setValue:@{@"activityType": @"com.bitilwallet.bitilwallet.receiveonchain", @"userInfo": @{@"address": @""}} forKey:@"onUserActivityOpen"];
   */
   return YES;
 }
@@ -115,7 +115,7 @@ static void InitializeFlipper(UIApplication *application) {
 - (BOOL)application:(UIApplication *)application continueUserActivity:(nonnull NSUserActivity *)userActivity
  restorationHandler:(nonnull void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler
 {
-  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.io.bluewallet.bluewallet"];
+  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.bitilwallet.bitilwallet"];
   [defaults setValue:@{@"activityType": userActivity.activityType, @"userInfo": userActivity.userInfo} forKey:@"onUserActivityOpen"];
   if (userActivity.activityType == NSUserActivityTypeBrowsingWeb) {
     return [RCTLinkingManager application:application
@@ -138,7 +138,7 @@ static void InitializeFlipper(UIApplication *application) {
 
 - (void)applicationWillTerminate:(UIApplication *)application {
   [WCSession.defaultSession updateApplicationContext:@{@"isWalletsInitialized": @NO} error:nil];
-  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.io.bluewallet.bluewallet"];
+  NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.bitilwallet.bitilwallet"];
   [defaults removeObjectForKey:@"onUserActivityOpen"];
 }
 

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BlueWallet.xcodeproj">
+      location = "group:/Users/idanneeman/Desktop/BitilWallet/ios/BitilWallet.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
