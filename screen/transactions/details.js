@@ -110,7 +110,7 @@ const TransactionsDetails = () => {
   };
 
   const handleOnOpenTransactionOnBlockExporerTapped = () => {
-    const url = `https://mempool.space/tx/${tx.hash}`;
+    const url = `https://explorer.bitilwallet.com/tx/${tx.hash}`;
     Linking.canOpenURL(url).then(supported => {
       if (supported) {
         Linking.openURL(url);
@@ -119,7 +119,7 @@ const TransactionsDetails = () => {
   };
 
   const handleCopyPress = () => {
-    Clipboard.setString(`https://mempool.space/tx/${tx.hash}`);
+    Clipboard.setString(`https://explorer.bitilwallet.com/tx/${tx.hash}`);
   };
 
   if (isLoading || !tx) {
@@ -131,7 +131,7 @@ const TransactionsDetails = () => {
       <HandoffComponent
         title={loc.transactions.details_title}
         type={HandoffComponent.activityTypes.ViewInBlockExplorer}
-        url={`https://mempool.space/tx/${tx.hash}`}
+        url={`https://explorer.bitilwallet.com/tx/${tx.hash}`}
       />
       <StatusBar barStyle="default" />
       <BlueCard>
