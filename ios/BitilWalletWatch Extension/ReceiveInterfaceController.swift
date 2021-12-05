@@ -71,7 +71,7 @@ class ReceiveInterfaceController: WKInterfaceController {
               self?.toggleViewButtonPressed()
               WCSession.default.sendMessage(["message": "fetchTransactions"], replyHandler: nil, errorHandler: nil)
             } else {
-              self?.presentAlert(withTitle: "Error", message: "Unable to create invoice. Please open BlueWallet on your iPhone and unlock your wallets.", preferredStyle: .alert, actions: [WKAlertAction(title: "OK", style: .default, handler: { [weak self] in
+              self?.presentAlert(withTitle: "Error", message: "Unable to create invoice. Please open BitilWallet on your iPhone and unlock your wallets.", preferredStyle: .alert, actions: [WKAlertAction(title: "OK", style: .default, handler: { [weak self] in
                 self?.dismiss()
                 self?.pop()
                 })])

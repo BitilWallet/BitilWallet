@@ -167,32 +167,32 @@
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* BlueWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueWalletTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BitilWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitilWalletTests.m; sourceTree = "<group>"; };
 		04466491BA2D4876A71222FC /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BitilWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitilWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BlueWallet/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BlueWallet/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BlueWallet/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlueWallet/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BlueWallet/main.m; sourceTree = "<group>"; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BitilWallet/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BitilWallet/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BitilWallet/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BitilWallet/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BitilWallet/main.m; sourceTree = "<group>"; };
 		1DD63E4B5C8344BB9880C9EC /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativePermissions.a; sourceTree = "<group>"; };
 		253243E162CE4822BF3A3B7D /* libRNRandomBytes-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNRandomBytes-tvOS.a"; sourceTree = "<group>"; };
 		2654894D4DE44A4C8F71773D /* CoreData.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCC2CD6FF4448229D0CE0F3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		32002D9C236FAA9F00B93396 /* TodayDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayDataStore.swift; sourceTree = "<group>"; };
-		32475F792370F6D30070E6CF /* BlueWallet - Bitcoin Price.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BlueWallet - Bitcoin Price.entitlements"; sourceTree = "<group>"; };
+		32475F792370F6D30070E6CF /* BitilWallet - Bitcoin Price.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BitilWallet - Bitcoin Price.entitlements"; sourceTree = "<group>"; };
 		3271B0A9236E2E0700DA766F /* BitilWallet - Bitcoin Israel Price.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitilWallet - Bitcoin Israel Price.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3271B0AA236E2E0700DA766F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		3271B0AD236E2E0700DA766F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		3271B0B0236E2E0700DA766F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		3271B0B2236E2E0700DA766F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3271B0BA236E329400DA766F /* TodayAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayAPI.swift; sourceTree = "<group>"; };
-		32B5A3282334450100F8D608 /* BlueWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueWallet-Bridging-Header.h"; sourceTree = "<group>"; };
+		32B5A3282334450100F8D608 /* BitilWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitilWallet-Bridging-Header.h"; sourceTree = "<group>"; };
 		32B5A3292334450100F8D608 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
-		32C7944323B8879D00BE2AFA /* BlueWalletRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BlueWalletRelease.entitlements; path = BlueWallet/BlueWalletRelease.entitlements; sourceTree = "<group>"; };
+		32C7944323B8879D00BE2AFA /* BitilWalletRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BitilWalletRelease.entitlements; path = BitilWallet/BitilWalletRelease.entitlements; sourceTree = "<group>"; };
 		32F0A24F2310B0700095C559 /* BitilWalletWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BitilWalletWatch Extension.entitlements"; sourceTree = "<group>"; };
-		32F0A2502310B0910095C559 /* BlueWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BlueWallet.entitlements; path = BlueWallet/BlueWallet.entitlements; sourceTree = "<group>"; };
+		32F0A2502310B0910095C559 /* BitilWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BitilWallet.entitlements; path = BitilWallet/BitilWallet.entitlements; sourceTree = "<group>"; };
 		32F0A2992311DBB20095C559 /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		334051161886419EA186F4BA /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		367FA8CEB35BC9431019D98A /* Pods-MarketWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketWidgetExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketWidgetExtension/Pods-MarketWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		94565BFC6A0C4235B3EC7B01 /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
 		95208B2A05884A76B5BB99C0 /* libRCTGoogleAnalyticsBridge.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTGoogleAnalyticsBridge.a; sourceTree = "<group>"; };
 		98455D960744E4E5DD50BA87 /* libPods-WalletInformationAndMarketWidgetExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WalletInformationAndMarketWidgetExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B3A324B70BC8C6D9314FD4F /* Pods-BlueWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueWallet/Pods-BlueWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		9B3A324B70BC8C6D9314FD4F /* Pods-BitilWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitilWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitilWallet/Pods-BitilWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		9DF4E6C040764E4BA1ACC1EB /* libTcpSockets.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libTcpSockets.a; sourceTree = "<group>"; };
 		9F1F51A83D044F3BB26A35FC /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; };
 		A751435C3FEE3FA6A2F775E3 /* Pods-BitilWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitilWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitilWallet/Pods-BitilWallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -332,7 +332,7 @@
 		B43D0376225847C500FBAA95 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		B43D0377225847C500FBAA95 /* WalletInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletInformation.swift; sourceTree = "<group>"; };
 		B43D046E22584C1B00FBAA95 /* libRNWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNWatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B459EE96941AE09BCB547DC0 /* Pods-BlueWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueWallet/Pods-BlueWallet.release.xcconfig"; sourceTree = "<group>"; };
+		B459EE96941AE09BCB547DC0 /* Pods-BitilWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitilWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitilWallet/Pods-BitilWallet.release.xcconfig"; sourceTree = "<group>"; };
 		B4D3235A177F4580BA52F2F9 /* libRNCSlider.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCSlider.a; sourceTree = "<group>"; };
 		B642AFB13483418CAB6FF25E /* libRCTQRCodeLocalImage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTQRCodeLocalImage.a; sourceTree = "<group>"; };
 		B9D9B3A7B2CB4255876B67AF /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -411,7 +411,7 @@
 		00E356EF1AD99517003FC87E /* BitilWalletTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* BlueWalletTests.m */,
+				00E356F21AD99517003FC87E /* BitilWalletTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
 			path = BitilWalletTests;
@@ -428,8 +428,8 @@
 		13B07FAE1A68108700A75B9A /* BitilWallet */ = {
 			isa = PBXGroup;
 			children = (
-				32C7944323B8879D00BE2AFA /* BlueWalletRelease.entitlements */,
-				32F0A2502310B0910095C559 /* BlueWallet.entitlements */,
+				32C7944323B8879D00BE2AFA /* BitilWalletRelease.entitlements */,
+				32F0A2502310B0910095C559 /* BitilWallet.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -437,7 +437,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				32B5A3292334450100F8D608 /* Bridge.swift */,
-				32B5A3282334450100F8D608 /* BlueWallet-Bridging-Header.h */,
+				32B5A3282334450100F8D608 /* BitilWallet-Bridging-Header.h */,
 				6DF25A9E249DB97E001D06F5 /* LaunchScreen.storyboard */,
 				6D32C5C42596CE2F008C077C /* EventEmitter.h */,
 				6D32C5C52596CE3A008C077C /* EventEmitter.m */,
@@ -473,7 +473,7 @@
 		3271B0AC236E2E0700DA766F /* TodayExtension */ = {
 			isa = PBXGroup;
 			children = (
-				32475F792370F6D30070E6CF /* BlueWallet - Bitcoin Price.entitlements */,
+				32475F792370F6D30070E6CF /* BitilWallet - Bitcoin Price.entitlements */,
 				3271B0AD236E2E0700DA766F /* TodayViewController.swift */,
 				3271B0BA236E329400DA766F /* TodayAPI.swift */,
 				3271B0AF236E2E0700DA766F /* MainInterface.storyboard */,
@@ -637,8 +637,8 @@
 		A9B365F08E5E8EADC056DBC4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A324B70BC8C6D9314FD4F /* Pods-BlueWallet.debug.xcconfig */,
-				B459EE96941AE09BCB547DC0 /* Pods-BlueWallet.release.xcconfig */,
+				9B3A324B70BC8C6D9314FD4F /* Pods-BitilWallet.debug.xcconfig */,
+				B459EE96941AE09BCB547DC0 /* Pods-BitilWallet.release.xcconfig */,
 				367FA8CEB35BC9431019D98A /* Pods-MarketWidgetExtension.debug.xcconfig */,
 				FF45EB303C9601ED114589A4 /* Pods-MarketWidgetExtension.release.xcconfig */,
 				AA7DCFB2C7887DF26EDB5710 /* Pods-WalletInformationAndMarketWidgetExtension.debug.xcconfig */,
@@ -859,7 +859,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = BlueWallet;
+				ORGANIZATIONNAME = BitilWallet;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1030;
@@ -1371,8 +1371,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BlueWallet/BlueWallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BitilWallet/BitilWallet.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 670;
 				DEAD_CODE_STRIPPING = NO;
@@ -1385,50 +1386,7 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = BlueWallet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				MARKETING_VERSION = 6.2.12;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet;
-				PRODUCT_NAME = BitilWallet;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = "$(OVERRIDE_SUPPORTS_MACCATALYST:default=YES)";
-				SWIFT_OBJC_BRIDGING_HEADER = "BlueWallet-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Debug;
-		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDB20E355E35BA1949CCE56C /* Pods-BitilWallet.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BlueWallet/BlueWalletRelease.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 670;
-				DEVELOPMENT_TEAM = UXR4428DTC;
-				ENABLE_BITCODE = NO;
-				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = BlueWallet/Info.plist;
+				INFOPLIST_FILE = BitilWallet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1449,7 +1407,51 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = "$(OVERRIDE_SUPPORTS_MACCATALYST:default=YES)";
-				SWIFT_OBJC_BRIDGING_HEADER = "BlueWallet-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitilWallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB20E355E35BA1949CCE56C /* Pods-BitilWallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BitilWallet/BitilWalletRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 670;
+				DEVELOPMENT_TEAM = UXR4428DTC;
+				ENABLE_BITCODE = NO;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BitilWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 6.2.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet;
+				PRODUCT_NAME = BitilWallet;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = "$(OVERRIDE_SUPPORTS_MACCATALYST:default=YES)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitilWallet-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1465,7 +1467,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "TodayExtension/BlueWallet - Bitcoin Price.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TodayExtension/BitilWallet - Bitcoin Price.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 670;
@@ -1503,7 +1505,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "TodayExtension/BlueWallet - Bitcoin Price.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TodayExtension/BitilWallet - Bitcoin Price.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -1797,7 +1799,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "BitilWalletWatch Extension/BlueWalletWatch Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "BitilWalletWatch Extension/BitilWalletWatch Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 670;
@@ -1836,7 +1838,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "BitilWalletWatch Extension/BlueWalletWatch Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "BitilWalletWatch Extension/BitilWalletWatch Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -1876,7 +1878,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = BitilWalletWatch/BlueWalletWatch.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BitilWalletWatch/BitilWalletWatch.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 670;
@@ -1913,7 +1915,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = BitilWalletWatch/BlueWalletWatch.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BitilWalletWatch/BitilWalletWatch.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
