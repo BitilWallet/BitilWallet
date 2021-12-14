@@ -83,6 +83,12 @@
       "locale": "zh-CN",
       "source": "BitilApi"
     },
+    "DKK": {
+    "endPointKey": "DKK",
+    "symbol": "kr",
+    "locale": "da-DK",
+    "source": "BitilApi"
+    },
     "EUR": {
       "endPointKey": "EUR",
       "symbol": "€",
