@@ -927,7 +927,7 @@
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			packageReferences = (
-				6DFC806E24EA0B6C007B8700 /* XCRemoteSwiftPackageReference "EFQRCode" */,
+				6DFC806E24EA0B6C007B8700 /* XCRemoteSwiftPackageReference "EFQRCode.git" */,
 			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
@@ -1375,7 +1375,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				ENABLE_BITCODE = NO;
@@ -1396,7 +1396,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1425,7 +1425,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
@@ -1440,7 +1440,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1470,7 +1470,7 @@
 				CODE_SIGN_ENTITLEMENTS = "TodayExtension/BitilWallet - Bitcoin Price.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1481,7 +1481,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.TodayExtension;
@@ -1509,7 +1509,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1520,7 +1520,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.TodayExtension;
 				PRODUCT_NAME = "BitilWallet - Bitcoin Israel Price";
@@ -1546,13 +1546,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Stickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.Stickers;
@@ -1578,13 +1578,13 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Stickers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1611,7 +1611,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1622,7 +1622,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.MarketWidget;
@@ -1656,7 +1656,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1667,7 +1667,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.MarketWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1802,7 +1802,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BitilWalletWatch Extension/BitilWalletWatch Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1812,7 +1812,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.watch.extension;
@@ -1842,7 +1842,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1852,7 +1852,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.watch.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -1881,13 +1881,13 @@
 				CODE_SIGN_ENTITLEMENTS = BitilWalletWatch/BitilWalletWatch.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = BitilWalletWatch_Extension;
 				INFOPLIST_FILE = BitilWalletWatch/Info.plist;
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.watch;
@@ -1919,13 +1919,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 671;
+				CURRENT_PROJECT_VERSION = 672;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UXR4428DTC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = BitilWalletWatch_Extension;
 				INFOPLIST_FILE = BitilWalletWatch/Info.plist;
-				MARKETING_VERSION = 6.2.13;
+				MARKETING_VERSION = 6.2.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitilwallet.bitilwallet.watch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2010,7 +2010,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6DFC806E24EA0B6C007B8700 /* XCRemoteSwiftPackageReference "EFQRCode" */ = {
+		6DFC806E24EA0B6C007B8700 /* XCRemoteSwiftPackageReference "EFQRCode.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/EFPrefix/EFQRCode.git";
 			requirement = {
@@ -2023,7 +2023,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		6DFC806F24EA0B6C007B8700 /* EFQRCode */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6DFC806E24EA0B6C007B8700 /* XCRemoteSwiftPackageReference "EFQRCode" */;
+			package = 6DFC806E24EA0B6C007B8700 /* XCRemoteSwiftPackageReference "EFQRCode.git" */;
 			productName = EFQRCode;
 		};
 /* End XCSwiftPackageProductDependency section */
